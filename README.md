@@ -23,6 +23,7 @@ This is often compounded for users who have complex requests such as application
 Example(s)
 
 There is no relational linkage between credit card and balance.
+
 <img src="./img/snapshot1.png"
      style="float: left; margin-right: 0px;" />
 
