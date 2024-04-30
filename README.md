@@ -5,11 +5,11 @@
 ### Chatbot for Banking Domain
 
 ## SECTION 2: EXECUTIVE SUMMARY
-####This project is the first step
+This project is the first step
 to develop an AI-driven chatbot tailored for DBS Limited, designed to elevate customer service by automating interactions, predicting customer intents, and integrating with banking microservices. The first phase will aim to automate customer service interactions with high accuracy and personalization by predicting and respond to customer intents with minimal human intervention.
 
 ## Background/Aims/Objectives
-####Background
+Background
 Chatbots have been deployed to various usage in various industries today; of which there are rule based chatbots with rudimentary pre-defined pathways to guide the customer journey, as well as, transactional chatbots that limit human interaction to predefined options towards an eventual goal e.g. request ticket, completed fund transfer.
 
 Often, chatbots take a hybrid approach, requiring human developers and sponsors to undertake the role of designing the customer journeys with fixed interaction patterns that are often repetitive. 
@@ -17,7 +17,7 @@ Often, chatbots take a hybrid approach, requiring human developers and sponsors 
 Examples include simple scenarios such as bank customers intending to transfer money; often such journeys are predefined customer journeys whereby the customer firstly asks about their account balance, then makes a decision to transfer money. 
 
 ## Problem
-####Chatbots often struggle to understand user queries that are complex, ambiguous, or poorly structured especially those involving implied or multiple intents, leading to frustrating user experiences.
+Chatbots often struggle to understand user queries that are complex, ambiguous, or poorly structured especially those involving implied or multiple intents, leading to frustrating user experiences.
 This is often compounded for users who have complex requests such as application for bank accounts where there is often multiple exchanges to correct submitted information and disjointed due to such exchanges taking pace across a span of time.
 
 Example(s)
