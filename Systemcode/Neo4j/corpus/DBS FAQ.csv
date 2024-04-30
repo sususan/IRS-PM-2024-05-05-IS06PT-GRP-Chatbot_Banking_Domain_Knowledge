@@ -1,0 +1,219 @@
+﻿Id,Section,SubSection,Label,Question,Answer
+1,Bank Cards,Applying for a DBS Debit Card or Credit Card,eligible_debit_card,Am I eligible for a debit card?,"You must be at least 16 years old and have a POSB Savings Account, DBS Savings Plus Account, DBS Autosave Account or DBS Current Account. To open one of these accounts, click <a href=""https://www.dbs.com.sg/personal/deposits/bank-with-ease/addon-casa"" >here</a>
+
+If you are a foreigner, please apply for a debit card at any of our branches. You will need to present your passport and an employment pass that is valid for at least 6 months."
+2,Bank Cards,Applying for a DBS Debit Card or Credit Card,eligible_credit_card,Am I eligible for a credit card?,"If you're Singaporean or have permanent residency and you're over 21 years of age, you can apply for a DBS <a href=""https://www.dbs.com.sg/personal/cards/credit-cards/default.page""> Credit Card </a>. You'll need to earn at least S$30,000 a year. For some cards, especially Platinum cards, you'll need to earn more so check the Application Details for the card you're interested in.
+
+If you're a foreigner with a valid employment pass, you'll need to earn a least S$45,000 a year unless otherwise stated.
+"
+3,Bank Cards,Applying for a DBS Debit Card or Credit Card,apply_card,What do I need to apply?,"The type of document you’ll need varies. Click <a href=""https://www.dbs.com.sg/personal/cards/cards-application-checklist.page"">here </a> for detailed list."
+4,Bank Cards,Applying for a DBS Debit Card or Credit Card,apply_card_duration,How long does it take?,Please allow 7 working days for processing. Application not accompanied with required documents or with incomplete information will cause a delay in processing.
+5,Bank Cards,Applying for a DBS Debit Card or Credit Card,apply_card_turned dow,Why was my application turned down?,"All applications go through an approval process. For confidentiality reasons, we can't reveal why your particular application was unsuccessful.
+
+However, we may not be able to process your debit card application if your designated <a href=""https://www.dbs.com.sg/personal/deposits/default.page"">DBS savings or current account</a>  is not signature-operated, or if your signature differs from our records. In these instances, we will notify you via an sms or letter and advise you to re-apply at the branch or call us back for further verification"
+6,Bank Cards,Applying for a DBS Debit Card or Credit Card,apply_card_status,Can I check the status of my application?,"Yes, Login to Internet Banking. Go to Apply > More Application Services > Select “View Application Status”. Alternatively, you may chat with our Virtual Assistant or Live Chat agents at dbs.com.sg/livechat. Please allow 7 working days for processing. Application not accompanied with required documents or with incomplete information will cause a delay in processing.
+
+Click <a href=""https://www.dbs.com.sg/personal/cards/credit-cards/default.page"" >Credit Card</a> or <a href=""https://www.dbs.com.sg/personal/cards/debit-cards/default.page"" >Debit Card</a> to select the card you wish to apply for.
+
+
+Where can I view the updated Credit Card and Unsecured Credit Rules?
+
+Please click <a href=""https://www.dbs.com.sg/personal/common-disclaimer.page?url=https://abs.org.sg/consumer-banking/consumer-guides&3rdparty=%27ABS-CONSUMER%20GUIDES%27"">here </a> for the latest FAQs on Revised Credit Card and Unsecured Credit Rules (ABS)."
+7,Bank Cards,DBS Reward Points / DBS Online Rewards,reward_card,What's DBS Rewards?,"DBS Rewards is our way of saying thanks for having a DBS Credit Card. Every time you charge to your card, you earn DBS Points which you can use to exchange for a range of exciting reward items."
+8,Bank Cards,DBS Reward Points / DBS Online Rewards,qualify_DBS_Points,How do I qualify for DBS Points?,"All DBS Credit Cardmembers are eligible for DBS Points Redemption Programme. However, the Programme does not apply to the following cards:-
+DBS Corporate Liability Card (MasterCard Corporate/ Executive and Visa Corporate/ Business)
+DBS Purchasing Card
+Country Club Corporate Card
+DBS Live Fresh Card
+DBS Takashimaya Card
+DBS Esso Card
+DBS yuu Card
+SAFRA DBS Credit/Debit Card
+POSB Credit Card
+DBS and POSB Debit Cards"
+9,Bank Cards,DBS Reward Points / DBS Online Rewards,earn_points,How do I earn points?,"You earn 1 DBS Point for every S$5 retail purchase charged to your DBS Credit Card. Points are calculated on each transaction and rounded down to the nearest whole number.
+"
+10,Bank Cards,DBS Reward Points / DBS Online Rewards,accelerated_points,How do I earn accelerated points?,"Some cards earn more points than others. For example, with DBS Altitude Cardmembers earn 3 DBS Points for every S$5 spent locally and earn 5 DBS Points for every S$5 spent on overseas transactions. Local spend is identified as card transactions posted in Singapore dollars. Overseas spend is identified as card transactions posted in foreign currencies. Click <a href=""https://www.dbs.com.sg/iwov-resources/pdf/cards/rewards_programme_tnc.pdf"" target=""_blank"" rel=""noopener noreferrer"">here</a>  for full terms and conditions."
+11,Bank Cards,DBS Reward Points / DBS Online Rewards,do_not_earn_points,Are there any transactions that don't earn points?,"DBS Points will not be awarded for Bill payments and all transactions via AXS, SAM, eNETS
+DBS Points will not be awarded for Payments to educational institutions
+DBS Points will not be awarded for Payment to government institutions and services (court cases, fines, bail and bonds, tax payment, postal services, parking lots and garages, intra-government purchases and any other government services not classified here)
+DBS Points will not be awarded for Payment to insurance companies (sales, underwriting, and premiums)
+DBS Points will not be awarded for Payments to financial institutions (including banks and brokerages)
+DBS Points will not be awarded for Payment to non-profit organisations
+DBS Points will not be awarded for Payments to hospitals
+DBS Points will not be awarded for Payments to utilities
+DBS Points will not be awarded for Betting (including lottery tickets, casino gaming chips, off-track betting, and wagers at race tracks) through any channel
+DBS Points will not be awarded for Any top-ups or payment of funds to payment service providers, prepaid cards, any prepaid accounts or purchase of prepaid cards/credits (including but not limited to EZ-Link, GrabPay, NETS FlashPay, Razer Pay, ShopeePay, Singtel Dash and Transit Link)
+DBS Points will not be awarded for Any transaction with transaction description “AMAZE*”
+DBS Points will not be awarded for Instalment payment plan purchases, preferred payment plans, balance transfer, fund transfer, cash advances, annual fees, interest, late payment charges, all fees charged by DBS, miscellaneous charges imposed by DBS (unless otherwise stated in writing by DBS)."
+12,Bank Cards,DBS Reward Points / DBS Online Rewards,DBS_point_usage,What can I do with my DBS points?,"You can redeem them for a whole lot of great rewards. There's everything from dining vouchers to movie tickets, to home appliances. Click <a href=""https://rewards.dbs.com/Home.aspx"" >here</a>  to explore the whole range."
+13,Bank Cards,DBS Reward Points / DBS Online Rewards,cardmembers_earn_points,Can Supplementary Cardmembers earn points?,"Yes, these points will be accumulated in the Principal Cardmember's account, and only the Principal Cardmember can redeem DBS Points for Rewards. However, Supplementary Cardmembers may also utilise the Rewards Vouchers issued to the Principal Cardmember."
+14,Bank Cards,DBS Reward Points / DBS Online Rewards,redeem_point,How do I know how many points I have and how do I redeem them?,Your DBS Points appear on your monthly Credit Card statement. You may also log in to our online DBS Rewards redemption website or DBS PayLah! app to check your available points and make a redemption.
+15,Bank Cards,DBS Reward Points / DBS Online Rewards,receive_card,When will I receive my voucher(s)?,It will take a few days to process your redemption and deliver the voucher(s).
+16,Bank Cards,DBS Reward Points / DBS Online Rewards,exchange_vouchers,Can I exchange vouchers or extend the expiry date?,"Sorry, you can't cancel redemptions or exchange vouchers once you've requested them. The expiry is printed on the voucher, so use it, don't lose it!"
+17,Bank Cards,DBS Reward Points / DBS Online Rewards,DBS_poinnt_pay_for_annual_fee,Can I use my DBS Points to pay my Credit Card's annual fee?,"Yes, so long as redemption is done 1 month before the Annual fee due date. Visit the fee waiver section of our Rewards page and select your card. Please note that the annual fee with be reflected in your Credit Card statement, upon its due date, but will be reversed in the following month's statement."
+18,Bank Cards,DBS Reward Points / DBS Online Rewards,convert_DBS_point,"How do I convert DBS Points to air miles?
+","For transfers to KrisFlyer, Asia Miles or Qantas Points, conversion rate of 1 DBS point to 2 miles applies and transfers are accepted in blocks of 5,000 DBS Points (or 10,000 miles). For Air Asia points, transfer is at the conversion rate of 1 DBS Point to 3 Air Asia points and transfers are accepted in blocks of 500 DBS Points (or 1,500 Air Asia points). Each conversion of DBS Points to miles by Cardmember to his/her designated airline’s programme will be subjected to a S$27.25 administration fee (inclusive of GST). For Air Asia points conversion, the administrative fee is waived till 31 Dec 2024.
+
+To redeem your DBS Points to miles, redemption can be made through our Rewards website <a href=""https://rewards.dbs.com"" target=""_blank"" rel=""noopener noreferrer"">https://rewards.dbs.com</a>. Please note that the transfer process takes approximately 1 - 2 weeks."
+19,Bank Cards,DBS Online Rewards,DBS_Online_Rewards,What is DBS Online Rewards?,DBS Online rewards website allows you to check your DBS points and redeem rewards online.
+20,Bank Cards,DBS Online Rewards,login_redeem,How do I login to redeem?,"Simply enter your digibank user ID and PIN to login.
+
+For Daily$ rebates, please login to <a href=""https://internet-banking.dbs.com.sg/"">DBS iBanking</a>  to redeem your Daily$ rebates"
+21,Bank Cards,DBS Online Rewards,redeem_point,I am not an existing DBS iBanking customer; can I still redeem my points online?,"No. You will need to register for a digibank user ID to perform DBS rewards redemption. Click <a href=""https://internet-banking.dbs.com.sg/ibAPL/Welcome"" >here</a>  to register now.
+"
+22,Bank Cards,DBS Online Rewards,access_online_rewards_website,"I am not a DBS Cardmember, can I still access the DBS Online Rewards website?","Yes. You can still browse the website to gather information. However, you need to be a DBS credit cardmember and digibank user to login. To sign up for a DBS credit card, please visit <a href=""https://www.dbs.com.sg/personal/cards/default.page"" >www.dbs.com/sg/cards</a>."
+23,Bank Cards,DBS Online Rewards,redeem_online_rewards_website,I have more than one DBS Credit Card. How can I redeem my DBS Points on this rewards site?,You can login with your digibank user ID and PIN. All DBS points accumulated via all your eligible credit cards will be automatically consolidated to your account.
+24,Bank Cards,DBS Online Rewards,change_billing_address,Can I change the billing address displayed in my account?,"No. For security reasons, change of billing address is not permitted via this site. You may update your address via DBS/POSB iBanking or DBS/POSB digibank app. Refer to update profile steps <a href=""https://www.dbs.com.sg/personal/support/general-product.html"" >here</a>."
+25,Bank Cards,DBS Online Rewards,credit_card_redeemption,Are all my DBS Credit Cards eligible for redemption on this website?,"All DBS reward point-earning credit cards are eligible for the redemption programme. DBS Corporate Liability Card, DBS Purchasing Card, Country Club Corporate Card, DBS Live Fresh Card, DBS Saab Credit Card, DBS Takashimaya Card, DBS Esso Card, DBS yuu Card, SAFRA DBS Credit/Debit Card, POSB Credit Card and all DBS and POSB Debit Cards are not eligible for this DBS points reward redemption program."
+26,Bank Cards,DBS Online Rewards,vide_DBS_point,How can I view my DBS Points and expiry date?,"After login, please click on ""My DBS Points Details"" and all your DBS Points will be displayed with the respective expiry dates."
+27,Bank Cards,DBS Online Rewards,search_rewards,How do I search for rewards?,"Please use the search bar below the menu. You can search for products by the following ways:
+
+Points range - drag the number
+Enter a keyword into the text box
+Select any one of the category on the menu bar"
+28,Bank Cards,DBS Online Rewards,redeem_for_items,How do I redeem for items?,"Drag and drop the item into the shopping cart on the right, you may increase or decrease quantity by clicking on the + or - sign.
+Click on the product and a light box will open up, enter desired quantity and click ""Add to cart"""
+29,Bank Cards,DBS Online Rewards,delete_shopping_cart,How do I delete an item from the shopping cart?,"Click on the - (minus) sign until it is removed from the shopping cart
+Go to ""View shopping cart"" and click on ""Remove"" to delete item"
+30,Bank Cards,DBS Online Rewards,take_to_redeem,"If I spend on my credit card now, how long does it take for me to be able to redeem on the points?","Your credit card points will be updated once the merchant has posted the transaction(s) and it will be reflected in your account within 24 hours.
+
+Please note that DBS shall have the discretion to postpone the awarding of credit card points for a reasonable period in the event of unforeseen circumstances, including any delay arising from system issues.
+"
+31,Bank Cards,Paying Your Credit Card Balance,paymant_method,What payment methods can I use?,"There are plenty of options available. Check the following  for details:
+
+DBS Internet Banking/digibank: Payment is immediate (For DBS/POSB account holders only)
+Phone Banking/ATM: Next working day (For DBS/POSB account holders only)
+AXS Stations: Next working day 
+InterBank GIRO: 3rd working day (You will need to complete GIRO application form)
+"
+32,Bank Cards,Paying Your Credit Card Balance,interest_free,How long do I get interest-free on purchases?,"You will have 25 interest-free days to make payment before your next Statement of Account is generated. After which, if you have not made full payment by the payment due date, you will be billed for interest, calculated daily from the date your transaction(s) were posted to your card account until full payment is received, subject to a minimum S$2.50."
+33,Bank Cards,Paying Your Credit Card Balance,credit_card_fees,Are there fees if I don’t pay?,"For partial payment or non-payment by the due date, there will be Finance Charges computed at the prevailing interest rate of 27.8% per annum levied. Finance charges are calculated daily from the date each transaction is posted to your card account until full payment is received. A minimum finance charge of S$2.50 is applicable.
+
+S$100 will be levied if minimum payment is not received on the card account by payment due date, provided your outstanding balance is above S$200, with effect from 27 April 2021."
+34,Bank Cards,Paying Your Credit Card Balance,interest_adjustment,"When will an interest adjustment be added to your account?
+","If the bank does not receive the required minimum payment by its due date (for example, due date on 25 June as illustrated in the example below), the interest rate applicable to your Credit Card account will be increased by 3% p.a. on top of the prevailing interest rate (”Increased Interest Rate”). This Increased Interest Rate shall be applied to the outstanding balance in your Credit Card account from the first working day after the date of the subsequent Credit Card account statement following your Credit Card account statement (i.e. from August’s statement), and used to compute the finance charges applicable to your Credit Card account.
+
+This additional interest rate shall be applied even if minimum payment is received by the Bank on or before the due date of the following month (i.e. in July).
+
+In the event that the minimum payment is made in full on or before the due date for the next statement (for example for August statement), the Increased Interest Rate shall be reinstated to the prevailing interest rate on the first working day after your next Statement Date (i.e. from September’s statement).
+"
+35,Bank Cards,Paying Your Credit Card Balance,additional_interest_rate,"How do I know when the additional interest rate will be applied to my Credit Card Account?
+","Any adjustment/reinstatement to the prevailing interest rate will be reflected in your monthly statement under your Account number.
+"
+36,Bank Cards,Paying Your Credit Card Balance,miss_payment,What will happen if I miss my payment again?,"If you miss your payment again during the period of the 1 month during which you must maintain minimum payment in order for the Increased Interest Rate to be reinstated to the prevailing interest rate, the Increased Interest Rate will continue to apply until minimum payment is made in full for 1 month period. Using the example above, the prevailing interest rate will only be reinstated from October’s statement."
+37,Bank Cards,Paying Your Credit Card Balance,avoid_interest_fees,How can I avoid paying interest and fees?,"If you pay your credit card balance in full each month by the due date.
+If you pay the minimum amount each month by the due date, you can avoid late payment charges."
+38,Bank Cards,Charge Disputes,check_full_detial,How do I check the full details of a charge on my statement?,You may chat with our Virtual Assistant or Live Chat agent at dbs.com.sg/livechat or contact us at 1800 339 6963 or (65) 6339 6963 from overseas. We’ll request a retrieval of the charge slip and mail it to you for verification. This may take from 6 to 8 weeks and costs S$5.00 per copy.
+39,Bank Cards,Charge Disputes,charge_disputes,"What if I’m sure I didn’t make a transaction on my statement – or that it’s for the wrong amount?
+",You may call our 24-hour Customer Service Centre at 1800 339 6963 or (65) 6339 6963 from overseas to register your dispute.
+40,Bank Cards,"Cancelling and Replacing Cards, Changing Your PIN",cancel_card_dueto_stolen,How do I cancel my card if it’s lost or stolen?,"If your debit or credit card is lost or stolen, you should report it immediately. We’ll cancel it and arrange a new card for you.
+
+Once you report that your card is lost or stolen, you will not be liable for any fraudulent transactions on your lost or stolen card from the time you notify us:
+
+Visit our Cards Digital Services Page at go.dbs.com/sg-digitalservices to block and replace your card. Alternatively, you may call our Customer Service Centre at 1800 339 6963 or (65) 6339 6963 from overseas.
+"
+41,Bank Cards,"Cancelling and Replacing Cards, Changing Your PIN",cancel_card,What if I don’t want my Debit or Credit Card any more?,"Visit our Cards Digital Services Page at go.dbs.com/sg-digitalservices to cancel your card. Alternatively, you may write in to us.
+
+There’s no need to give a reason but please include your card account number & signature so we can cancel it. Our address is DBS Cards, Orchard Road, P.O. Box 360, Singapore 912312
+
+For security reasons, please cut each card in half and dispose of them straight away. If there are outstanding balances remaining, your monthly statement will continue to be sent to you until full payment has been made."
+42,Bank Cards,"Cancelling and Replacing Cards, Changing Your PIN",replace_cards,"I damaged my card, how do I get a replacement?","Visit our Cards Digital Services Page at go.dbs.com/sg-digitalservices to replace your card. Alternatively, you can call our 24-hour Customer Service Centre on 1800 111 1111 or (65) 6327 2265 from overseas to request for a replacement card. 
+"
+43,Bank Cards,"Cancelling and Replacing Cards, Changing Your PIN",card_change_pin,"I can’t remember my ATM/Debit/Credit Card PIN, can I request a new one?","If you’ve forgotten your ATM/Debit/Credit Card PIN, you can reset instantly via:
+
+DBS/POSB Internet Banking:
+Login to Internet Banking >> Cards >> Reset Card PIN
+DBS/POSB Digibank app:
+Login to Digibank App >> Card Services >> Reset Card PIN
+If you do not have Internet or Mobile Banking, you can reset <a href=""https://www.dbs.com.sg/personal/cards/card-services/reset-card-pin""> here</a>."
+44,Bank Cards,Upgrading or Changing Cards,change_card,Can I change to a different card?,"Yes, but because each card has different terms you have to apply again. It’s up to you whether you want to cancel your old card or keep it."
+45,Bank Cards,Cash Advance and Funds Transfer,cash_advance_cost,How much does Cash Advance cost?,"A Cash Advance fee of 8% of the amount withdrawn or S$15.00, whichever is greater, will be levied for each Cash Advance transaction made on your card account. In addition, Cash Advance prevailing interest rate of 28.5% p.a. (subject to compounding if the charges are not repaid in full) on the amount withdrawn, chargeable on a daily basis from the date of withdrawal until receipt of full payment (minimum charge of S$2.50) will apply."
+46,Bank Cards,Cash Advance and Funds Transfer,balance_transfer,"How does Balance Transfer work and how to apply?
+","Consolidate your outstanding balances with other banks with DBS/ POSB Balance Transfer and enjoy 0% interest over 3, 6 or 12 months tenure.
+
+Apply online with just 3 steps. Please click <a href=""https://www.dbs.com.sg/personal/loans/personal-loans/balance-transfer""> here</a> for more details."
+47,Bank Cards,Enhancing Card Usage Security,EVM_Chip_Card,What is EMV?,"EMV stands for Europay, MasterCard, Visa which is a joint effort to ensure security and global Interoperability so that MasterCard and Visa cards can continue to be accepted everywhere. With the EMV Smart Chip, your card is protected against fraudulent activities and you can enjoy the highest level of security when transacting on your Card."
+48,Bank Cards,Enhancing Card Usage Security,EMV_Chip_Card_secrity,How does my EMV Chip Card offer enhanced security against fraud?,"The microprocessor chip on the EMV Chip Card is protected by cryptographic encryption, which prevents its contents from being replicated. The chip-based card complies with the MAS standards of data security. Magnetic stripe cards, on the other hand, use an older technology making the card vulnerable to cloning."
+49,Bank Cards,Enhancing Card Usage Security,EMV_Chip_Card_OverSeas_use,Can I use my EMV Chip Card overseas?,"Yes, you may use your EMV Chip Card overseas. However, in some countries, EMV Chip Cards are not prevalent and not all terminals accept EMV Chip Cards. In these countries, your transactions can still be processed via the magnetic stripe."
+50,Bank Cards,Enhancing Card Usage Security,EVM_Chip_Card_repalce,I have other main and or supplementary credit card(s) with DBS. Will these cards be replaced with EMV Chip Cards as well?,"Yes, we are progressively sending out EMV Chip Cards to customers."
+51,Bank Cards,Enhancing Card Usage Security,EVM_Chip_Card_current_PIN,What happens to my current PIN?,Your current PIN remains unchanged and will continue to apply to your new EMV Chip Card.
+52,Bank Cards,Enhancing Card Usage Security,EMV_Chip_Card_Usage,Can I use the EMV Chip Card for online transactions as well as at ATMs?,"Yes, you can use your EMV Chip Card for online purchases and perform cash advances at ATMs. You may also perform cash withdrawals at ATMs if you have linked your DBS Current/Savings account to your Credit/Debit Card."
+53,Bank Cards,Enhancing Card Usage Security,EMV_Chip_Card_GIRO,"What happens to my GIRO, installment payment plan as well as recurring payment arrangements on my current card?","Your new EMV Chip Card bears the same 16-digit credit card number as your current Card. Hence, all these arrangements will remain unchanged."
+54,Bank Cards,Enhancing Card Usage Security,DBS_reward_point,What happens to the DBS Reward Points / Dollars on my current card?,Your DBS Reward Points / Dollars will continue to remain in your account.
+55,Bank Cards,Enhancing Card Usage Security,EMV_Chip_Card_Point_expiry,Will the change in the expiry date of the card affect my online or ecommerce transaction(s)?,Yes. Please update your existing ecommerce merchants of the new expiry date of the card to ensure transactions are not affected.
+56,Bank Cards,Enhancing Card Usage Security,EMV_Chip_Card_misplace,What should I do if my EMV Chip Card has been misplaced?,"Visit our Cards Digital Services Page at go.dbs.com/sg-digitalservices to block and replace your card. Alternatively, you may call our Customer Service Centre at 1800 339 6963 or (65) 6339 6963 from overseas."
+57,Bank Cards,Card Activation,active_card_before_use,Why do I need to activate my new DBS/POSB Cards before use?,Banks are taking extra steps to protect their Cardholders to reduce the possibility of fraudulent transactions being undertaken by unauthorised parties.
+58,Bank Cards,Card Activation,card_need_to_activate,Which types of Cards need to be activated?,"All new, replacement or renewal DBS/POSB Cards; principal and supplementary Cards, including DBS Commercial Cards, will require activation. For Frequently Asked Questions on DBS Commercial Cards, please click <a href=""https://www.dbs.com/sg/enterprise/cards/Pages/default.aspx""> here </a>."
+59,Bank Cards,Card Activation,card_activate,Where do I activate my DBS/POSB Card?,"You can activate your new card using QR code, digibank mobile/online, DBS digibot, SMS Banking or at our DBS/POSB ATM and Video Teller Machine (VTM). Visit <a href=""https://www.dbs.com.sg/act""> www.dbs.com.sg/act </a> for more details."
+60,Bank Cards,Card Activation,kid_account_active,How can I activate both my POSB Baby Bonus NETS card and POSBkids Account in one step?,"CDA Customers can activate both your POSB Baby Bonus NETS Card and POSBkids Account instantly via the One-Step SMS Activation as below:
+For Trustees who are existing DBS/POSB account holders:
+
+SMS to 77767:
+Activate <space> card's last 4 digits <space> SG
+For Trustees who are new to bank:
+
+SMS to 77767:
+Activate <space> card's last 4 digits <space> SG <space> SG
+
+Please note: This service is only available for Singaporean/PR Trustee & Child who are Singapore Tax Resident Only. By performing the one-step SMS instant activation, you acknowledge and agree that your child and you are tax resident of Singapore only."
+61,Bank Cards,Card Activation,card_after_activate,Can I use my Card immediately after activation?,"Activation via ATM and iBanking will be immediate. For activation request via Mail-in Activation Slip, your Card will be activated within 5 working days upon the Bank's receipt of the slip."
+62,Bank Cards,Card Activation,need__activate_card_immediately,Do I need to activate my DBS/POSB Card immediately?,"Upon receipt of your Card, we encourage immediate activation to ensure your transactions can occur smoothly so you can enjoy the privileges that comes with the Card."
+63,Bank Cards,Card Activation,waiting_replacement_card,"If I am waiting for a replacement Card with the same Card number, can I continue to use my existing Card?","Yes, you can continue using your existing Card. Upon receipt of the replacement Card, please activate it immediately."
+64,Bank Cards,Card Activation,supplementary_card_activate,Does a supplementary Card require activation?,Yes. Supplementary Cards will also need to be activated by the supplementary Cardholder before use.
+65,Bank Cards,Card Activation,oversea_credit_activate,I am currently overseas. How can I activate my Credit Card?,"Any one of the following indicated can be used to activate your Card from overseas:
+iBanking
+If you have a Telephone PIN, you may call our 24-hours Customer Service hotline at +65 6327 2265 and speak to one of our Customer Service Officers"
+66,Bank Cards,Credit Card,request_fee_waiver,How can I request Fee waiver?,"Fee waiver requests are only accepted via the automated system.
+Fee waiver request via DBS digibot & Phone Banking is not available between 2345 hrs to 0030 hrs and 0230 hrs to 0245 hrs daily (excluding Sunday and Public holiday).
+An email/SMS will be sent to you as per your registered bank record on the status of your waiver request within 3 working days.
+For DBS Altitude Credit Card/DBS Vantage , a bonus of 5,000/12,500 DBS Points were credited to your account when the annual fee was charged. Please ensure that you have 5,000/12,500 DBS Points before requesting for waiver and DBS Points will be reversed within 3 working days. However, if there are insufficient DBS Points in your account, you will be charged S$0.0388 per DBS Point. <a href=""https://www.dbs.com.sg/iwov-resources/pdf/cards/altitude-card-tnc.pdf"" target=""_blank"">Terms and conditions apply</a>."
+67,Bank Cards,Credit Card ,retrieve_card_statement,How to retrieve Card Statements?,"There are various channels which you may retrieve Card Statements with us. The most convenient method would be via digibank mobile.For more information click <a href=""https://www.dbs.com.sg/personal/support/card-statement-retrieve-statement.html""> here </a>."
+68,Bank Cards,Cancel Card,terminate_card,How to Cancel Card?,"You can cancel Credit, Debit or ATM Card easily through our DBS digibot. For more information click <a href=""https://www.dbs.com.sg/personal/support/card-issues-terminate-card.html""> here </a>."
+69,Banking / Credit Cards,Terminate GIRO Arrangement,terminate_GIRO,How to Terminate GIRO Arrangement?,"Termination of GIRO can only be performed via digibank Online, and it is currently not available on digibank Mobile. For more information click <a https://www.dbs.com.sg/personal/support/bank-payment-terminate-giro-arrangement.html""> here </a>."
+70,Bank Cards,Card Upgrade,card_upgrade_gold_platinum,How do I upgrade? Can I go from Gold to Platinum?,"Yes – as long as you stay with the same card. For example you can go from Visa to Visa Gold or Visa Platinum. Just write to us. Include your card account number, signature and copies of your latest income documents (Income Tax Notice of Assessment, IR8A, a computerised payslip or employer's letter). If it’s approved, your new card will be with you within 2 weeks."
+71,Bank Cards,Credit Card ,credit_card_payment,What’s credit card payment on digibank app?,The credit card payment option on digibank allows you to make credit card payments for cards issued by any bank.
+72,Bank Cards,Credit Card ,digibank_app_card_payment,Which all banks credit card payments can be done using digibank app?,"Through digibank, you can make payments for credit cards issued by any bank. If you’d like to confirm, take a look at the list of banks under the credit card payment option on digibank."
+73,Bank Cards,Credit Card ,credit_card_payment_reflect,How much time it will takes to reflect the payment in my credit card account?,"We’ll need to share some information to explain when your payment will reflect in your credit card account. All NEFT payments operate in half-hourly batches. So, the beneficiary can expect to get the credit for the transactions put through between 8 am to 4.30 pm on all working days including working Saturdays on the same day. If you make your payment after that time, your payment will reflect on the next working day. But, the issuing bank may take more time to update payment status according to their own processes. To avoid any penalties, we recommend that you should make all payments at least three working days before your due date."
+74,Bank Cards,Credit Card ,credit_card_payment_processing,Why it’s take 3 working day for processing?,"We’ll need to share some information to explain when your payment will reflect in your credit card account. All NEFT payments operate in half-hourly batches. So, the beneficiary can expect to get the credit for the transactions put through between 8 am to 4.30 pm on all working days including working Saturdays on the same day. If you make your payment after that time, your payment will reflect on the next working day. But, the issuing bank may take more time to update payment status according to their own processes. To avoid any penalties, we recommend that you should make all payments at least three working days before your due date."
+75,Bank Cards,Credit Card ,credit_card_payment_maximum_limit,What’s the maximum limit of processing the transaction?,"There isn’t a maximum limit for processing credit card payments. However, the Rs 5 lakh limit for transferring funds from a mobile banking app will apply."
+76,Bank Cards,Credit Card ,credit_card_pay_outstanding,How can I pay credit card outstanding through digibank?,You carry out credit card payments through digibank
+77,Bank Cards,Overlimit Suspension,account_suspended,Why is my account(s) suspended?,"As your total outstanding balance exceeds the max total credit limit allowed, hence your account(s) has been suspended."
+78,Bank Cards,Overlimit Suspension,total_outstanding_balance,How is the total outstanding balance derived?,"The total outstanding balance is the sum of all your outstanding balances including unposted outstanding instalment balances, on your:
+
+DBS credit cards; and/or DBS unsecured facilities (e.g. Cashline, MoneyLine, POSB Loan Assist)"
+79,Bank Cards,Overlimit Suspension,reinstate_account,"My account has been suspended, what should I do to reinstate my account?","The suspension will be auto uplifted when your outstanding balance is below 95% of the maximum total credit limit allowed. You may:
+
+Make payment to reduce your outstanding balance to be within the maximum total credit limit allowed; and/or
+Provide us with your latest income document via <a href=""https://www.dbs.com.sg/personal/cards/card-services/income-update?cid=sg-dbs-vanity-cards-income-update"">go.dbs.com/sg-iu</a> to facilitate an accurate assessment of your new maximum total credit limit."
+80,Bank Cards,Overlimit Suspension,reduce_credit_limit_by_bank,Can the Bank reduce the credit limit of my accounts without prior notice?,"Yes, the Bank has the prerogative to review and revise the credit limit of our customers. This is in accordance with clause 2.1 and/or clause 5.1 of the DBS Card Agreement and/or clause 3.5 of the DBS Cashline Terms and Conditions (included below for your easy reference).
+
+Excerpt from the DBS Card Agreement:
+2.1. CHARGES NOT TO EXCEED OVERALL CREDIT LIMIT We may set an overall credit limit in respect of each Card Account. The total charges incurred under each Card Account by the Principal Cardholder and the Supplementary Cardholder(s) when added together, must not exceed the credit limit set for each Card Account. We may, where necessary, review any of your credit limits without notice.
+
+5.1. OUR RIGHT TO TERMINATE
+We may suspend or terminate your Card Account(s) at any time without having to give any reasons or notice.
+
+Excerpt from the DBS Cashline Terms and Conditions
+3.5. We shall be entitled at any time, without prior notice to you, to vary the credit limit set in relation to the Cashline account and/or review, vary, supplement, suspend, withdraw and/or cancel any of the Facilities or Electronic Service or other services made available to you. You agree that we shall not be liable for any losses, damages, expenses or costs incurred or suffered by you in connection with such review, variation, supplement, suspension, withdrawal and/or cancellation."
+81,Bank Cards,Overlimit Suspension,my_preferred_payment-plans,What will happen to my existing Instalment Plans/Balance Transfers/My Preferred Payment Plans?,There will be no impact to your existing Instalment Plans/Balance Transfers/My Preferred Payment Plans.
+82,digibank Debit Card,Debit card annual fee/charges,debit_card_charges,What are DBS Debit Card charges? What is the frequency of these charges? When was the communication sent by the bank for these charges?,"Your digibank by DBS Debit Card has an annual fee of ₹150+18% GST, applicable from the second year of opening your digiSavings account. A nominal amount of ₹150+₹27 (GST) would be charged once a year. The first debit of the annual charges will be processed starting July 2020. Please note that you may be also charged for subsequent reissuances of your physical debit card. An email was sent by us from the email id - digiconnect@dbs.com, in the month of June 2020 notifying our customers of the charges."
+83,digibank Debit Card,Debit card annual fee/charges,debit_card_GST,What is the GST amount?,The annual debit card charges will be ₹150+18% GST (₹27). Hence ₹177 will be debited from your digiSavings account.
+84,digibank Debit Card,Debit card annual fee/charges,debit_card_annual_fee,Are these annual charges going to increase in the future?,"The nominal amount of ₹150+GST is an annual debit card charge, applicable from the second year of your digiSavings account opening. We will not be increasing this amount anytime this year and will keep you informed if there are any changes in the future."
+85,digibank Debit Card,Debit card annual fee/charges,debit_card_waiver,I have not been charged any debit card charges before. Why am I being charged now? Can I apply for waiver of DC charges?,"The annual debit card charges of ₹150+GST are only charged from the second year of digiSavings account opening. We had not charged the annual fees before this year, even though the same is included in our Rates and Fees, as a service gesture towards our customers.
+We regret that there are no waivers applicable on the annual debit card charges."
+86,digibank Debit Card,Debit card annual fee/charges,debit_card_replacement_fee,"I have used more than one debit card, am I going to be charged for all cards? Would I also be charged extra for replacement card apart from the annual charges?","We will only deduct annual charges for the debit card presently being used by you. Kindly note that you may be also charged separately for any future debit card reissuances, if you have not exceeded the limit of 4 replacement debit cards for that year."
+87,digibank Debit Card,Debit card annual fee/charges,debit_card_charges,Would I still be charged if I have not used my card or have blocked my card & have not requested for a replacement card yet?,"The debit card annual fees will be charged for all active debit cards, even if you are not using the same. However, you will be charged the debit card annual fees and reissuance charges separately, whenever you submit the request for the reissuance, provided you have not exceeded the limit of 4 replacement debit cards for that year."
+88,digibank Debit Card,Debit card annual fee/charges,debit_card_international_usage_fee,"digibank Debit Card is not operational on all International Websites, why should I pay the charges?","digibank Debit Card can be used at 2 million ATMs worldwide and you can also shop at any physical store around the world, after you activate it for international usage. The card can be used on some international websites and we are always enhancing our features. You get all these benefits at a nominal annual charge of ₹177 (₹150+GST)."
+89,digibank Debit Card,Debit card annual fee/charges,free_debit_card,Will there be any extra features associated with my debit card or can I get an account where I am offered a free debit card?,"If you would like to explore other account options, please visit our website for more details. Please do let us know what extra features you would like with your digibank Debit Card. You can write to us at support@dbs.com."
+90,digibank Debit Card,Debit card annual fee/charges,debit_card_charges_feedback,"Now that I must pay the annual charges, how can I share my feedback regarding the debit card charges being applied?","If you would like to share your feedback regarding the annual debit card charges being levied, please write to us support@dbs.com."
+91,digibank Debit Card,Features,debit_card_benefit,What benefits do I get with the debit card?,"Your virtual debit card, which comes with digibank e-wallet, can be used for online and electronic transactions in India, within specified limits.
+
+Your physical debit card, which comes with digiSavings, can be used anywhere regular debit cards can be used, including online and point of sale transactions, as well as overseas. You also get free unlimited cash withdrawals at nearly 2,00,000 ATMs across India.
+
+Both debit cards are subject to usage limits."
+92,digibank Debit Card,Features,digibank_reward,What rewards can I get with digibank?,"Check out our <a title=""Deals and Offers"" href=""https://www.dbs.com/digibank/in/deals-and-offers.page"">deals page</a>  for the latest offers. Our rewards, deals, and offers are changing all the time. It simply wouldn't be possible to list them all here!"
+93,digibank Debit Card,Tap to Pay Queries,visa_tap_pay,What is Visa Tap to Pay?,"Visa Tap to Pay is a new contactless method of payment - the latest evolution in Visa payments. It is a simple, secure and quick payment method. The technology enables cardholders to 'Tap' their card on a contactless Point-of-Sale (PoS) terminal to make transactions up to INR 2,000, rather than 'swiping' or 'dipping' their card into PoS terminals."
+94,digibank Debit Card,Cashback Related,qualify_cashback,How do I qualify for cashback?,We are offering cash back on qualifying transactions done on your digibank debit card. Find more details for our cashback program: https://www.dbs.com/digibank/in/deals-and-offers.page
+95,digibank Debit Card,Cashback Related,my_cashback,How can I find if I get my cashback?,"Cashback will be reflected in your transaction history. It would have the word ""cashback"" in the transaction description."
+96,digibank Debit Card,Cashback Related,cashback_program,Is there a cap on cashback amount?,"Yes there is a cap on cashback, please find below details for our cashback program: https://www.dbs.com/digibank/in/deals-and-offers.page"
