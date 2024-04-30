@@ -24,10 +24,10 @@ Example(s)
 
 There is no relational linkage between credit card and balance.
 
-<img src="./img/snapshot1.png"
+<img src="./img/Screenshot1.png"
      style="float: left; margin-right: 0px;" />
 
-<img src="./img/snapshot2.png"
+<img src="./img/Screenshot2.png"
      style="float: left; margin-right: 0px;" />
 
 ## Market Research
@@ -60,5 +60,5 @@ Implementation for the following:
  KG engine – relates NER to each other and to Intent labels
  Chatbot UI – UI interface for chatbot user
 
-<img src="./img/snapshot3.png"
+<img src="./img/Screenshot3.png"
      style="float: left; margin-right: 0px;" />
