@@ -8,7 +8,7 @@
 This project is the first step
 to develop an AI-driven chatbot tailored for DBS Limited, designed to elevate customer service by automating interactions, predicting customer intents, and integrating with banking microservices. The first phase will aim to automate customer service interactions with high accuracy and personalization by predicting and respond to customer intents with minimal human intervention.
 
-## Background/Aims/Objectives
+## SECTION 3: Background/Aims/Objectives
 Background
 Chatbots have been deployed to various usage in various industries today; of which there are rule based chatbots with rudimentary pre-defined pathways to guide the customer journey, as well as, transactional chatbots that limit human interaction to predefined options towards an eventual goal e.g. request ticket, completed fund transfer.
 
@@ -16,7 +16,7 @@ Often, chatbots take a hybrid approach, requiring human developers and sponsors 
 
 Examples include simple scenarios such as bank customers intending to transfer money; often such journeys are predefined customer journeys whereby the customer firstly asks about their account balance, then makes a decision to transfer money. 
 
-## Problem
+## SECTION 4: Problem
 Chatbots often struggle to understand user queries that are complex, ambiguous, or poorly structured especially those involving implied or multiple intents, leading to frustrating user experiences.
 This is often compounded for users who have complex requests such as application for bank accounts where there is often multiple exchanges to correct submitted information and disjointed due to such exchanges taking pace across a span of time.
 
@@ -24,13 +24,13 @@ Example(s)
 
 There is no relational linkage between credit card and balance.
 
-<img src="./img/snapshot1.png"
+<img src="./img/Screenshot1.png"
      style="float: left; margin-right: 0px;" />
 
-<img src="./img/snapshot2.png"
+<img src="./img/Screenshot2.png"
      style="float: left; margin-right: 0px;" />
 
-## Market Research
+## SECTION 5: Market Research
 Chatbot usage is ubiquitous; any company offering products to a sizeable customer base that requires customer servicing and addressing of concerns can benefit from deploying chatbots to reduce the dependency on human customer service officers.
 
 Key Providers for construction of chatbots involve the following:
@@ -48,7 +48,7 @@ Following are reference implementations that will inform of our approach:
 Botpress for its visual flow builder
 Wit.ai, Gnani, Wiz AI for their predictive capabilities
 
-## Implementation
+## SECTION 6: Implementation
 Implementation for the following:
  Webscrapper
  Text Preprocessor – Tokenizer and Stemmer, Spell Auto correction
@@ -60,5 +60,15 @@ Implementation for the following:
  KG engine – relates NER to each other and to Intent labels
  Chatbot UI – UI interface for chatbot user
 
-<img src="./img/snapshot3.png"
+<img src="./img/Screenshot3.png"
      style="float: left; margin-right: 0px;" />
+
+## SECTION 7: CREDITS / PROJECT CONTRIBUTION
+| Official Full Name  | Student ID (MTech Applicable)  | Work Items (Who Did What) | Email (Optional) |
+| :------------ |:---------------:| :-----| :-----|
+| Lee Ming Fung (Mike) | A0291994J | Overall system design, documentation, chatbot implemention | e1336959@u.nus.edu |
+| Lee Pei Wen Celina | A0292305J | Overall system design, documentation| e1339816@u.nus.edu |
+| Su Su San | A0292250L | Data Acquisition, Data Processing, Knowledge Graph system design, Neo4j deployment and query,Backend logic | e1339295@u.nus.edu |
+| Lo Weng Cheong Jason | A0292310R | Overall system design, documentation | E1339821@u.nus.edu |
+
+## SECTION 8 : VIDEO OF SYSTEM MODELLING & USE CASE DEMO
