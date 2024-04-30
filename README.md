@@ -70,3 +70,5 @@ Implementation for the following:
 | Lee Pei Wen Celina | A0292305J | Overall system design, documentation| e1339816@u.nus.edu |
 | Su Su San | A0292250L | Data Acquisition, Data Processing, Knowledge Graph system design, Neo4j deployment and query,Backend logic | e1339295@u.nus.edu |
 | Lo Weng Cheong Jason | A0292310R | Overall system design, documentation | E1339821@u.nus.edu |
+
+## SECTION 8 : VIDEO OF SYSTEM MODELLING & USE CASE DEMO
