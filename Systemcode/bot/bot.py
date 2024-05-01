@@ -26,17 +26,17 @@ from tabulate import tabulate
 
 import pandas as pd
 import numpy as np
-import query as query
 
 # log header
 loghead = "bot"
+
 
 # standard help message
 BOT_MESSAGE_INTRO = '''
 Hi there, welcome to bank bot, how may we help you with your queries?
 
 Since this is in alpha testing stage and only developed for
-project showcase, we have limited some functionality to
+project showcase, we have limited some functionality to 
 a select group of users.
 
 You may find that your username cannot access some of the functions.
@@ -54,7 +54,6 @@ Hi! I can show you plenty of free udemy courses.
  /help - print this help message.
 '''
 
-driver = query.connect_to_neo4j();
 
 def restricted(func):
     @wraps(func)
@@ -80,7 +79,7 @@ def restricted(func):
 
 def handle_start_cmd(update: Update, context: CallbackContext):
     '''
-    Start command
+    Start command 
     '''
     logsubhead = f"{loghead}.handle_start_cmd(update, context)-"
     update.message.reply_text(f"{BOT_MESSAGE_INTRO}\n{BOT_MESSAGE_HELP}")
@@ -196,12 +195,10 @@ def handle_all_cmd(update: Update, context: CallbackContext):
 
 def handle_any_msg(update, context):
     '''
-    handles any other message
+    handles any other message 
     call the model to trigger.
     '''
-    print(context)
-    update.message.reply_text(query.getAnswerByQuestion(context, driver))
-    #update.message.reply_text(BOT_MESSAGE_HELP)
+    update.message.reply_text(BOT_MESSAGE_HELP)
 
 
 def main():
