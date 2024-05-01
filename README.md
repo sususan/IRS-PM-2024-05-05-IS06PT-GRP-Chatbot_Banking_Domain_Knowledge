@@ -1,4 +1,4 @@
-# Develop an AI-driven chatbot for DBS Limited
+# AI-driven chatbot for DBS Limited
 
 ## SECTION 1 : PROJECT TITLE
 
