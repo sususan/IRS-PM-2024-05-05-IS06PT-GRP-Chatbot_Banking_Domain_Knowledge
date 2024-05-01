@@ -2,5 +2,5 @@ python-telegram-bot==13.7
 tabulate
 pandas
 transformers
-OpenNRE
+#OpenNRE
 neo4j
