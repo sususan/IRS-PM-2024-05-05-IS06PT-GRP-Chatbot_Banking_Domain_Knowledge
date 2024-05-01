@@ -1,4 +1,4 @@
-# IRS-PM-2024-05-05-Chatbot_Banking_Domain_Knowledge
+# Develop an AI-driven chatbot for DBS Limited
 
 ## SECTION 1 : PROJECT TITLE
 
