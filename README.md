@@ -1,8 +1,6 @@
-# AI-driven chatbot for DBS Limited
-
 ## SECTION 1 : PROJECT TITLE
 
-### Chatbot for Banking Domain
+### AI-driven chatbot for DBS Limited
 
 ## SECTION 2: EXECUTIVE SUMMARY
 This project is the first step
