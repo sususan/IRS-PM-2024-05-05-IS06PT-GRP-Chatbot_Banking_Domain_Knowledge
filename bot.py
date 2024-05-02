@@ -199,8 +199,7 @@ def handle_any_msg(update, context):
     handles any other message
     call the model to trigger.
     '''
-    print(context)
-    update.message.reply_text(query.getAnswerByQuestion(context, driver))
+    update.message.reply_text(query.getanswerbyquestion(update.message.text, driver))
     #update.message.reply_text(BOT_MESSAGE_HELP)
 
 
@@ -223,7 +222,7 @@ def main():
     # updater.dispatcher.add_handler(CommandHandler("viz", handle_viz_cmd))
     updater.dispatcher.add_handler(CommandHandler('help', handle_help_cmd))
     updater.dispatcher.add_handler(
-        MessageHandler(Filters.text, handle_any_msg))
+    MessageHandler(Filters.text, handle_any_msg))
 
     updater.start_polling()
     updater.idle()

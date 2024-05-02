@@ -17,7 +17,19 @@ def connect_to_neo4j():
 def getanswerbyquestion(question, driver):
     print(question)
     query = (
-        "MATCH (f {Question:'Am I eligible for a credit card?'}) RETURN f.Answer AS Answer "
+        "MATCH (f:FAQ) WHERE f.Question CONTAINS('"+question+"') RETURN f.Answer AS Answer "
+    )
+    with driver.session() as session:
+        results = session.run(query)
+        for result in results:
+            print('Answer' + ': ' + result['Answer'])
+            return result['Answer']
+    return "No relevant answer found!"
+
+def getanswerbylable(label, driver):
+    print(label)
+    query = (
+        "MATCH (f:FAQ) WHERE f.Label CONTAINS('"+label+"') RETURN f.Answer AS Answer "
     )
     with driver.session() as session:
         results = session.run(query)

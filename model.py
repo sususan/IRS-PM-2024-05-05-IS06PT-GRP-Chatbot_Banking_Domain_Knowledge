@@ -48,7 +48,8 @@ def connect_to_neo4j(uri, username, password):
 def retrieve_nodes_and_attributes(driver):
     with driver.session() as session:
         result = session.run(
-            "MATCH (n:Intent)-[r:HAS_ANSWER]->(a:Attribute) RETURN n.name AS intent, collect(a.value) AS answers"
+            #"MATCH (n:Intent)-[r:HAS_ANSWER]->(a:Attribute) RETURN n.name AS intent, collect(a.value) AS answers"
+            "MATCH (n:Intent)-[r:HAS_ANSWER]->(a:Answer) RETURN n.name AS intent, collect(a.Label) AS answers"
         )
         nodes_and_attributes = {record['intent']: {"answer": record['answers']} for record in result}
     return nodes_and_attributes
