@@ -7,4 +7,4 @@
 
 
 
-telegram_bot_token = '6971924904:AAE9pIvwkEcWDIUJkZXIqmbS0AbUYhddVFA' #irs nus-iss
+telegram_bot_token = '6984270535:AAE-4A4p22R--osXIZZZS7Ej5fN9aU8iqJ0' #irs nus-iss

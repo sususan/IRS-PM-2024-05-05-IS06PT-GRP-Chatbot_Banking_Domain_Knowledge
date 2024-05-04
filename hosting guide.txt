@@ -1,0 +1,12 @@
+1. Upload Your Bot Code
+2. Setup a new virtual environment
+   mkvirtualenv mybot --python=/usr/bin/python3.8
+3. Install dependencies within virtual environment
+   workon mybot
+   pip install python-telegram-bot
+   pip install transformers
+   .....
+   .....
+   .....
+4. Run your bot
+   python main.py
