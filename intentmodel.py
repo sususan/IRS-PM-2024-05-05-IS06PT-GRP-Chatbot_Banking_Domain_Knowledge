@@ -2,7 +2,6 @@ import numpy as np
 import pandas as pd
 import json
 
-
 def clear_screen():
     import os
     os.system('cls' if os.name == 'nt' else 'clear')
@@ -36,11 +35,11 @@ from sklearn.preprocessing import OneHotEncoder,LabelEncoder
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Input, Dropout, LSTM, Activation, Bidirectional,Embedding
 
-
 def save_model(model, classes, tokenizer, label_encoder):
     import pickle
     import json
-    model.save('intents.h5', overwrite=True, save_format='h5')
+    #model.save('intents.h5', overwrite=True, save_format='h5')
+    model.export('intents.h5', overwrite=True, save_format='h5')
 
     with open('classes.pkl','wb') as file:
         pickle.dump(classes,file)
@@ -146,10 +145,11 @@ class IntentClassifier:
 
 def load_model():
     import pickle
-
     from tensorflow.keras.models import load_model
-    model = load_model('intents.h5',  compile=True)
+    #model = load_model('intents.h5',  compile=True)
+    model = load_model('intents.h5')
 
+    print("model loaded")
     with open('classes.pkl','rb') as file:
         classes = pickle.load(file)
 
