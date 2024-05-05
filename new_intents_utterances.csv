@@ -1,4 +1,8 @@
 intent,utterance
+greetings,Hello
+greetings,Hi
+greetings,Hey there
+greetings,Hiya
 my_cashback,How to check if I got cashback?
 my_cashback,Where to see if cashback credited?
 my_cashback,Can I find my cashback in transaction history?

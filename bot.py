@@ -34,13 +34,11 @@ loghead = "bot"
 
 # standard help message
 BOT_MESSAGE_INTRO = '''
-Hi there, welcome to bank bot, how may we help you with your queries?
+Welcome to DBS! 
 
-Since this is in alpha testing stage and only developed for
-project showcase, we have limited some functionality to
-a select group of users.
-
-You may find that your username cannot access some of the functions.
+How can I assist you today? 
+Ask me anything about cashback, account qualifications, or any other banking queries you have.
+Let's get started!
 '''
 
 BOT_MESSAGE_HELP = '''
@@ -200,11 +198,13 @@ def handle_any_msg(update, context):
     handles any other message
     call the model to trigger.
     '''
-    #update.message.reply_text(query.getanswerbyquestion(update.message.text, driver))
     nlu = intentmodel.load_model()
     #Find user intent
+    print(update.message.text)
     intent = nlu.get_intent(update.message.text)
-    #print(intent)
+    print(intent)
+    if(intent == 'greetings'):
+        update.message.reply_text(BOT_MESSAGE_INTRO)
     #If intent found, query using intent
     update.message.reply_text(query.getanswerbylable(intent, driver))
 

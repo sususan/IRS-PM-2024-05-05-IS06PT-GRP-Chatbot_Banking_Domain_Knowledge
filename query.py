@@ -29,13 +29,13 @@ def getanswerbyquestion(question, driver):
 def getanswerbylable(label, driver):
     print(label)
     query = (
-        "MATCH (f:FAQ) WHERE f.Label CONTAINS('"+label+"') RETURN f.Answer AS Answer "
+        "MATCH (f:FAQ) WHERE f.Label CONTAINS('"+label+"') RETURN f.Answer AS Answer, f.Question As Question "
     )
     with driver.session() as session:
         results = session.run(query)
         for result in results:
             print('Answer' + ': ' + result['Answer'])
-            return result['Answer']
+            return 'Are you asking about \"' +result['Question']+ '\"? and if so, answer is: \n' + result['Answer']
     return "No relevant answer found!"
 
 
