@@ -36,10 +36,11 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Input, Dropout, LSTM, Activation, Bidirectional,Embedding
 
 def save_model(model, classes, tokenizer, label_encoder):
+    print('Started Save the model')
     import pickle
     import json
-    #model.save('intents.h5', overwrite=True, save_format='h5')
-    model.export('intents.h5', overwrite=True, save_format='h5')
+    model.save('intents.h5', overwrite=True, save_format='h5')
+    #model.export('intents.h5', overwrite=True, save_format='h5')
 
     with open('classes.pkl','wb') as file:
         pickle.dump(classes,file)
@@ -51,7 +52,7 @@ def save_model(model, classes, tokenizer, label_encoder):
         pickle.dump(label_encoder,file)
 
 def train_model():
-
+    print('Started Train the model')
     df = pd.read_csv("new_intents_utterances.csv")
 
     text = df['utterance']

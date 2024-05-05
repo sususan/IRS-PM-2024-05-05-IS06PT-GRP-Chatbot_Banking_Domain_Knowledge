@@ -9,7 +9,7 @@
 from functools import wraps
 from configurations import logger
 from configurations import BOT_AUTHORISED_USERS, RESTRICTED_ACCESS
-from telegram import ReplyKeyboardMarkup, Update
+from telegram import ReplyKeyboardMarkup, Update,InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import (
     Updater,
     CommandHandler,
@@ -18,6 +18,7 @@ from telegram.ext import (
     ConversationHandler,
     PicklePersistence,
     CallbackContext,
+    CallbackQueryHandler,
 )
 from credentials import telegram_bot_token
 # from visualization import Visualization
@@ -42,15 +43,6 @@ Let's get started!
 '''
 
 BOT_MESSAGE_HELP = '''
-Hi! I can show you plenty of free udemy courses.
- What would you like to do next?
- /start
- introduction
-
- You may type any query to start
-
-
- /help - print this help message.
 '''
 
 driver = query.connect_to_neo4j();
@@ -202,11 +194,40 @@ def handle_any_msg(update, context):
     #Find user intent
     print(update.message.text)
     intent = nlu.get_intent(update.message.text)
-    print(intent)
+
     if(intent == 'greetings'):
-        update.message.reply_text(BOT_MESSAGE_INTRO)
+        return update.message.reply_text(BOT_MESSAGE_INTRO)
     #If intent found, query using intent
-    update.message.reply_text(query.getanswerbylable(intent, driver))
+    initialQuestion, answer = query.getanswerbylable(intent, driver)
+    update.message.reply_text('Are you asking about \"' +initialQuestion+ '\"? and if so, answer is: \n' + answer)
+
+    subsection = query.findSubSection(intent, driver)
+    print('subsection' + subsection)
+    relatedQuestions = query.findSimilerQuestion(subsection, initialQuestion,driver)
+    if len(relatedQuestions) > 0:
+        #update.message.reply_text("You may also ask:")
+        update.message.reply_text('You may also ask:',reply_markup=get_button(relatedQuestions))
+        #update.message.reply_text(relatedQuestions[i])
+
+def get_button(relatedQuestions):
+    # Define your button layout
+    keyboard = []
+    for i in range(0, len(relatedQuestions)):
+        keyboard.append([InlineKeyboardButton(relatedQuestions[i], callback_data=relatedQuestions[i])])
+
+    return InlineKeyboardMarkup(keyboard)
+
+def button_click_handler(update: Update, context: CallbackContext):
+    callback = update.callback_query
+    # Get the chat_id from the original message
+    chat_id = callback.message.chat_id
+    context.bot.send_message(chat_id=chat_id, text= query.getanswerbyquestion(callback.data, driver))
+    #callback.edit_message_text(query.getanswerbyquestion(callback.data, driver))
+    #query.edit_message_text(text=query.data)
+
+def echo(update: Update, context: CallbackContext):
+    received_text = update.message.text
+    update.message.reply_text(received_text)
 
 def main():
     '''
@@ -228,6 +249,8 @@ def main():
     updater.dispatcher.add_handler(CommandHandler('help', handle_help_cmd))
     updater.dispatcher.add_handler(
     MessageHandler(Filters.text, handle_any_msg))
+
+    updater.dispatcher.add_handler(CallbackQueryHandler(button_click_handler))  # Handler for button clicks
 
     updater.start_polling()
     updater.idle()
