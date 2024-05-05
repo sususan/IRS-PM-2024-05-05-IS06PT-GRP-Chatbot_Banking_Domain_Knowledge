@@ -17,21 +17,24 @@ from tensorflow.keras.preprocessing.sequence import pad_sequences
 max_num_words = 40000
 classes = np.unique(labels)
 
+# Tokenizing texts
 tokenizer = Tokenizer(num_words=max_num_words)
 tokenizer.fit_on_texts(train_txt)
 word_index = tokenizer.word_index
+print('Found %s unique tokens.' % len(word_index))
 
 ls=[]
 for c in train_txt:
     ls.append(len(c.split()))
 maxLen=int(np.percentile(ls, 98))
 train_sequences = tokenizer.texts_to_sequences(train_txt)
-train_sequences = pad_sequences(train_sequences, maxlen=maxLen,              padding='post')
+train_sequences = pad_sequences(train_sequences, maxlen=maxLen, padding='post')
 test_sequences = tokenizer.texts_to_sequences(test_txt)
+# Padding sequences to ensure uniform input size
 test_sequences = pad_sequences(test_sequences, maxlen=maxLen, padding='post')
 
 from sklearn.preprocessing import OneHotEncoder,LabelEncoder
-
+# Encoding labels
 label_encoder = LabelEncoder()
 integer_encoded = label_encoder.fit_transform(classes)
 
@@ -45,11 +48,11 @@ test_labels_encoded = label_encoder.transform(test_labels)
 test_labels_encoded = test_labels_encoded.reshape(len(test_labels_encoded), 1)
 test_labels = onehot_encoder.transform(test_labels_encoded)
 
-# from pathlib import Path
-# url ='https://www.dropbox.com/s/a247ju2qsczh0be/glove.6B.100d.txt?dl=1'
-# if Path('glove.6B.100d.txt').exists is not True:
-#     import wget
-#     wget.download(url)
+#from pathlib import Path
+#url ='https://www.dropbox.com/s/a247ju2qsczh0be/glove.6B.100d.txt?dl=1'
+#if Path('glove.6B.100d.txt').exists is not True:
+    #import wget
+    #wget.download(url)
 
 embeddings_index={}
 with open('glove.6B.100d.txt', encoding='utf8') as f:
@@ -79,6 +82,8 @@ for word, i in word_index.items():
 
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Input, Dropout, LSTM, Activation, Bidirectional,Embedding
+
+#Build the Model
 model = Sequential()
 
 model.add(Embedding(num_words, 100, trainable=False,input_length=train_sequences.shape[1], weights=[embedding_matrix]))
@@ -91,6 +96,7 @@ model.add(Dropout(0.5))
 model.add(Dense(classes.shape[0], activation='softmax'))
 model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['acc'])
 
+#Train the Model
 history = model.fit(train_sequences, train_label, epochs = 450,
           batch_size = 64, shuffle=True,
           validation_data=[test_sequences, test_labels])
@@ -98,7 +104,8 @@ history = model.fit(train_sequences, train_label, epochs = 450,
 def save_model(model, classes, tokenizer, label_encoder):
     import pickle
     import json
-    model.save('intents.h5', overwrite=True, save_format='h5')
+    #model.save('intents.h5', overwrite=True, save_format='h5')
+    model.export('intents.h5', overwrite=True, save_format='h5')
 
     with open('classes.pkl','wb') as file:
         pickle.dump(classes,file)
@@ -129,10 +136,11 @@ class IntentClassifier:
 
 def load_model():
     import pickle
-
     from tensorflow.keras.models import load_model
-    model = load_model('intents.h5',  compile=True)
+    #model = load_model('intents.h5',  compile=True)
+    model = load_model('intents.h5')
 
+    print("model loaded")
     with open('classes.pkl','rb') as file:
         classes = pickle.load(file)
 

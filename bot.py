@@ -27,6 +27,7 @@ from tabulate import tabulate
 import pandas as pd
 import numpy as np
 import query as query
+import intentmodel as intentmodel
 
 # log header
 loghead = "bot"
@@ -199,9 +200,13 @@ def handle_any_msg(update, context):
     handles any other message
     call the model to trigger.
     '''
-    update.message.reply_text(query.getanswerbyquestion(update.message.text, driver))
-    #update.message.reply_text(BOT_MESSAGE_HELP)
-
+    #update.message.reply_text(query.getanswerbyquestion(update.message.text, driver))
+    nlu = intentmodel.load_model()
+    #Find user intent
+    intent = nlu.get_intent(update.message.text)
+    #print(intent)
+    #If intent found, query using intent
+    update.message.reply_text(query.getanswerbylable(intent, driver))
 
 def main():
     '''
